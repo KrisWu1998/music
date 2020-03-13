@@ -1,0 +1,51 @@
+{
+  "id": "1656328",
+  "name": "music",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "3367114",
+      "name": "返回",
+      "font_class": "header-back",
+      "unicode": "e655",
+      "unicode_decimal": 58965
+    },
+    {
+      "icon_id": "8224464",
+      "name": "音乐",
+      "font_class": "yinyue",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "12953513",
+      "name": "用户",
+      "font_class": "yonghu",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "7029307",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e662",
+      "unicode_decimal": 58978
+    },
+    {
+      "icon_id": "12370244",
+      "name": "垃圾桶",
+      "font_class": "lajitong",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "10374464",
+      "name": "叉",
+      "font_class": "cha",
+      "unicode": "e670",
+      "unicode_decimal": 58992
+    }
+  ]
+}

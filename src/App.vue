@@ -1,28 +1,33 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!-- 公用头部 -->
+    <Header></Header>
+    <!-- 公用选项切换 -->
+    <Tab></Tab>
+    <!-- 切换的视图 -->
+    <keep-alive include="index,singer,rank,search">
+    <router-view></router-view>
+    </keep-alive>
+    <!-- 大小屏 -->
+    <play></play>
+    <!-- 我的界面 -->
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import Header from './components/Header'
+import Tab from './components/Tab'
+import play from './components/Player/player'
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
+   components:{Header,Tab,play}
 }
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+<style lang="less" scoped>
+@import './style/index.less';
+#app{
+  background: @black2;
+  // .w(375);
+  height: 100vh;
 }
 </style>
